@@ -32,7 +32,7 @@ class App extends React.Component {
         return (
         <div className = "App">  {
                 items.map((item) => ( 
-                <div key = { item.id } className="main_div">
+                <div key = { item.id } className="box">
                 <h3>{ item.title }</h3>
                    <img src={ item.url } alt="image" id="image"></img>
                     </div>
